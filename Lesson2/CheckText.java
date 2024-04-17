@@ -8,6 +8,11 @@ public class CheckText {
         System.out.println("The forth character in the text string is: " + i);
         System.out.println("The index of the letter 'J' is: " + text.indexOf("J"));
         System.out.println(text + " and QA Automation");
-        //boolean result =
+
+        if (text instanceof String){
+            System.out.println("It is String");
+        }else {
+            System.out.println("It is Integer");
+        }
     }
 }
