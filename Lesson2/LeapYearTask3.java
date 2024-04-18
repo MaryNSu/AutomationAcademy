@@ -1,5 +1,6 @@
 package Lesson2;
 
+import java.util.GregorianCalendar;
 import java.util.Scanner;
 
 public class LeapYearTask3 {
@@ -16,6 +17,8 @@ public class LeapYearTask3 {
                 System.out.println(year + " is not a leap year.");
             }
         }
+        // We can also use here the method: GregorianCalendar().isLeapYear();
+
 
 
 
