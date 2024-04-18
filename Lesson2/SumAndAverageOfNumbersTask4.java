@@ -12,7 +12,7 @@ public class SumAndAverageOfNumbersTask4 {
         int num4 = input.nextInt();
         int num5 = input.nextInt();
         int sum = num1 + num2 + num3 + num4 + num5;
-        double average = sum/5;
+        double average = (double) sum/5;
         System.out.println("The sum of the numbers is: " + sum);
         System.out.println("The average of the numbers is: " + average);
     }
