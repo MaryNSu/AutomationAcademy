@@ -17,6 +17,7 @@ public class LeapYearTask3 {
                 System.out.println(year + " is not a leap year.");
             }
         }
+
         // We can also use here the method: GregorianCalendar().isLeapYear();
 
 
