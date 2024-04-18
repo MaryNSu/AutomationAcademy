@@ -14,7 +14,7 @@ public class TheGreatestNumberTask2 {
         System.out.println("Enter the third number:");
         c = input.nextInt();
 
-        int[] arr = new int []{a,b,c};
+        int[] arr = new int[]{a, b, c};
         Arrays.sort(arr);
         System.out.println("The greatest number is " + arr[2]);
     }
