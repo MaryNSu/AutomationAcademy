@@ -5,16 +5,14 @@ import java.util.Scanner;
 public class GenderReaderTask1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        char gender;
-        System.out.println("Please enter the gender M/m of F/f:");
-        gender = input.next().charAt(0);
+        String gender;
+        System.out.println("Please enter the gender M of F:");
+        gender = input.next().toUpperCase();
         switch (gender) {
-            case ('M'):
-            case ('m'):
+            case ("M"):
                 System.out.println("Male");
                 break;
-            case ('F'):
-            case ('f'):
+            case ("F"):
                 System.out.println("Female");
                 break;
             default:
