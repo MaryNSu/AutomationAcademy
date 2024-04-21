@@ -9,9 +9,10 @@ public class FactorialTask4 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the number: ");
         int number = input.nextInt();
-        while (i <= number){
+        i = number;
+        while (i > 0){
             factorial *= i;
-            i++;
+            i--;
         }
         System.out.println("Factorial of " + number + " is: " + factorial);
     }
