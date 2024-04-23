@@ -17,4 +17,3 @@ public class SearchElementTask5 {
         return index;
     }
 }
-// or we can also use here : Arrays.binarySearch()
