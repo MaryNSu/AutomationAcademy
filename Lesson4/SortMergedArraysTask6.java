@@ -2,7 +2,7 @@ package Lesson4;
 
 import java.util.Arrays;
 
-public class SortMergedArraysTask {
+public class SortMergedArraysTask6 {
     public static void main(String[] args) {
         int[] arr1 = {1, -2, 0, 4, 56, 6};
         int[] arr2 = {5, 0, 45, 11, -7};
